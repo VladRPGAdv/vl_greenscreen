@@ -21,3 +21,5 @@ Pas cu Pas:
 - O data ce ati scris cmd puteti verifica daca aveti python-ul instalat folosind comanda **python --version**
 - Dupa ce ati verificat daca aveti python-ul veti avea nevoie de inca o librarie o puteti instala folosind comanda **pip install Pillow**
 - Acum ca avem totul suntem pregatiti sa trecem la magie. Veti fi nevoiti sa trageti imaginile descarcate de pe discord in folder-ul [py]. O data ce le aveti acolo puteti incepe sa scrieti in cmd **python main.py numeleImaginivoastre.extensie** [Exemplu: ***python main.py sanchez.jpg***]
+# De ce am nevoie?
+Pentru a putea rula script-ul aveti nevoie de resursa screenshot-basic
