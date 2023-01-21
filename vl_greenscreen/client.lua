@@ -4,21 +4,6 @@ local CreateThread = Citizen.CreateThread
 local cam
 local isInGreenScreen = false
 
-
--- CreateThread(function()
-
---     while true do
---         Wait(1000)
-
---         while isGreenGreenActive do
---             Wait(1)
---             DrawMarker(43, VL.GreenScreenLocation[1], VL.GreenScreenLocation[2], VL.GreenScreenLocation[3] + 1, 0.0, 0.0, 0.0, 0.0, 180.0, 0.0, 100.0, 100.0, -900.0, 0, 255, 0, 255, false, false, 2, nil, nil, false)
---         end
-
---     end
-
--- end)
-
 RegisterCommand("greenscreen", function()
     if not isInGreenScreen then
         cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", 1)
